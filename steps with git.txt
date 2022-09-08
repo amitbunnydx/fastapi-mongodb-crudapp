@@ -1,0 +1,23 @@
+1- create git repository
+2- go to the folder whare we want to create project
+3- right click and select git-bash
+4- copy url from git 
+5- inside git bash = git clone (pest link)
+this will clone the reposetory 
+
+installation
+1- pip install pymongo fastapi uvicorn
+2- Create file and abb below code
+
+#Ipmort statement
+from fastapi import FastAPI
+
+#create app
+app=FastAPI()
+
+3- to run server type command = uvicorn index:app --reload
+4- open browser and type = http://127.0.0.1:8000/docs
+
+5 open local host in mongodb and check for new collection name student 
+
+
